@@ -42,7 +42,7 @@ python base64tool.py --mode encode_image --file image.png
 > Saves output to image.png.b64.txt
 
 Decode a Base64-Encoded Image File:
-python base64tool.py --mode decode_image --input image.png.b64.txt --output restored.png
+python main.py --mode decode_image --input image.png.b64.txt --output restored.png
 
 Project Structure
 -----------------
