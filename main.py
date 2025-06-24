@@ -59,5 +59,5 @@ def main():
     else:
         print("[Error] Invalid arguments. Use --help for usage.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
